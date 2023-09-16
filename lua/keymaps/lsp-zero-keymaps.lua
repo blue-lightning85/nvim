@@ -25,10 +25,7 @@ cmp.setup({
       return item
     end,
   },
-	preselect = 'item',
-  completion = {
-    completeopt = 'menu,menuone,noinsert'
-  },
+	preselect = false,
   mapping = {
     ['<Tab>'] = cmp_action.tab_complete(),
     ['<S-Tab>'] = cmp_action.select_prev_or_fallback(),

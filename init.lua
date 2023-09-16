@@ -8,9 +8,10 @@ require('keymaps.nvim-keymaps')
 require('package-manager.lazy')
 
 -- Plugin Configurations
-require('config.theme-config')
+--require('config.theme-config')
 require('config.lsp-zero-config')
 require('config.treesitter-config')
+--require('config.lualine-config')
 
 -- Keymaps
 require('keymaps.lsp-zero-keymaps')
