@@ -20,7 +20,7 @@ vim.opt.undofile = true
 vim.opt.hlsearch = true
 vim.opt.incsearch = true
 
--- Set scrolling settins
+-- Set scrolling settings
 vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 
